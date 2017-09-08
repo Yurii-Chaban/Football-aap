@@ -11,7 +11,4 @@ export class AppComponent implements OnInit {
   }
   title = 'app';
 
-  // scrollUp(): void {
-  //
-  // }
 }

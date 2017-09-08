@@ -1,85 +1,10 @@
 <app-header-module></app-header-module>
 <main class="main-content">
     <div class="main-inside-wrapper">
-        <aside class="sidebar-nav">
-            <ul class="nav-link">
-                <li>
-                    <a href="#">Лига чемпионов</a>
-                </li>
-                <li>
-                    <a href="#">Лига Европы</a>
-                </li>
-            </ul>
-            <div class="json-country-data">
-                <app-country-nav-component></app-country-nav-component>
-            </div>
-            <ul class="nav-link">
-                <li>
-                    <a href="#">ЧМ-2018. Отбор</a>
-                </li>
-            </ul>
-
-            <ul class="nav-link">
-                <li>
-                    <a href="#">Копа Америка</a>
-                </li>
-                <li>
-                    <a href="#">Кубок Африки</a>
-                </li>
-            </ul>
-
-            <ul class="nav-link">
-                <li>
-                    <a href="#">Копа Либертадорес</a>
-                </li>
-            </ul>
-
-            <ul class="nav-link">
-                <li>
-                    <a href="#">4-4-2</a>
-                </li>
-                <li>
-                    <a href="#">Бизнес и Финансы</a>
-                </li>
-                <li>
-                    <a href="#">Бей-беги</a>
-                </li>
-                <li>
-                    <a href="#">Другой футбол</a>
-                </li>
-                <li>
-                    <a href="#">Испанский связной</a>
-                </li>
-                <li>
-                    <a href="#">Calcio dello Stivale</a>
-                </li>
-                <li>
-                    <a href="#">Ретро футбол</a>
-                </li>
-                <li>
-                    <a href="#">Своя рубашка</a>
-                </li>
-                <li>
-                    <a href="#">Скаут</a>
-                </li>
-                <li>
-                    <a href="#">Третий тайм</a>
-                </li>
-                <li>
-                    <a href="#">Чтиво</a>
-                </li>
-                <li>
-                    <a href="#">Камон, плэй!</a>
-                </li>
-            </ul>
-        </aside>
+        <app-left-sidebar></app-left-sidebar>
+        <app-right-sidebar></app-right-sidebar>
         <section class="content">
-            <div class="json-data">
-                <app-get-json-content></app-get-json-content>
-            </div>
+
         </section>
-        <!--<button (click)="scrollUp()">-->
-            <!--<i class="fa fa-angle-up" aria-hidden="true"></i>-->
-        <!--</button>-->
     </div>
 </main>

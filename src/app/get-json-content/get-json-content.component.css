@@ -1,8 +1,8 @@
 .json-content {
-  margin: 0 0 2em 0;
-  list-style-type: none;
+  margin: 10px auto;
   padding: 0;
-  width: 15em;
+  list-style-type: none;
+  overflow: hidden;
 }
 .json-content li {
   cursor: pointer;

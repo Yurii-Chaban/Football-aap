@@ -1,0 +1,54 @@
+.top-subject-content-title {
+  padding: 0 0 5px;
+  font: 400 14px / 20px 'PFDinBold', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-bottom: 2px solid #000;
+}
+
+.top-subject-list {
+  padding: 0;
+  font-family: 'PFDinRegular', Arial, sans-serif;
+}
+
+.top-subject-list li {
+  margin: 5px auto 0;
+  padding: 5px 10px 15px;
+  border-bottom: 1px solid #282828;
+}
+
+.icon-wrapper {
+  float: left;
+  width: 30px;
+  height: 40px;
+  margin: 0 15px 0 0;
+  overflow: hidden;
+}
+
+.icon-wrapper img {
+  max-width: 100%;
+}
+
+.subject-title {
+  margin: 0;
+  padding: 0;
+}
+
+.subject-title a {
+  text-decoration: none;
+  font: bold 16px / 1 'PFDinBold', Arial, sans-serif;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.subject-title a:hover {
+  color: #188a19;
+}
+
+.news-count {
+  font-size: 10px;
+  font-weight: 400;
+  color: #333;
+}

@@ -1,0 +1,16 @@
+<div class="top-subject-content">
+  <h3 class="top-subject-content-title">АКТУАЛЬНЫЕ СЮЖЕТЫ</h3>
+  <ul class="top-subject-list">
+    <li *ngFor="let top_subject_result of top_subject_results">
+      <div class="icon-wrapper">
+        <img src="{{ top_subject_result.image }}" alt="icon">
+      </div>
+      <div class="overflow-content">
+        <h4 class="subject-title">
+          <a href="#">{{ top_subject_result.title }}</a>
+        </h4>
+        <span class="news-count">{{ top_subject_result.news_count }} новости(ей)</span>
+      </div>
+    </li>
+  </ul>
+</div>

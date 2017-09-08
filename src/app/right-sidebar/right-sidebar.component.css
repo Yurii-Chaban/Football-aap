@@ -1,0 +1,17 @@
+.sidebar-right {
+  float: right;
+  width: 310px;
+  background: #ffffff;
+}
+
+.banner {
+  margin: 0 auto 30px;
+  padding: 5px;
+  background: #EFEFEF;
+}
+
+.holder_300X100 {
+  width: 100%;
+  min-height: 100px;
+  background: #ffffff;
+}

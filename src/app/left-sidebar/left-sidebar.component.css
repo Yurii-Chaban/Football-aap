@@ -1,0 +1,36 @@
+
+.sidebar-left {
+  width: 110px;
+  float: left;
+  padding-bottom: 50vh;
+  position: relative;
+}
+
+#scroll-top {
+  display: block;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: #f0f0f0;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  border: 0;
+}
+
+#scroll-top .fa {
+  font-size: 30px;
+  color: #c5c5c5;
+}
+
+#scroll-top:hover {
+  background: #000;
+}
+#scroll-top:hover .fa {
+  color: #fff;
+}

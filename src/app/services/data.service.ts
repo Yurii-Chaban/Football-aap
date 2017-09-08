@@ -32,5 +32,17 @@ export class DataService {
             });
     }
 
+    getTopSubjectData(): Observable<Array<object>> {
+        return this.http.get('/assets/top-subject.json')
+            .map(res => {
+                console.log('data', res);
+                return res.json();
+            })
+            .catch(error => {
+                console.log(error);
+                return Observable.of<Object>([]);
+            });
+    }
+
 
 }

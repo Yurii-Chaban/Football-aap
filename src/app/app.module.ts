@@ -8,6 +8,9 @@ import { HeaderNavModuleComponent } from './header-nav-module/header-nav-module.
 import { GetJsonContentComponent } from './get-json-content/get-json-content.component';
 import { SearchComponentComponent } from './search-component/search-component.component';
 import { CountryNavComponentComponent } from './country-nav-component/country-nav-component.component';
+import { TopSubjectsComponent } from './top-subjects/top-subjects.component';
+import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
+import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { CountryNavComponentComponent } from './country-nav-component/country-na
     HeaderNavModuleComponent,
     GetJsonContentComponent,
     SearchComponentComponent,
-    CountryNavComponentComponent
+    CountryNavComponentComponent,
+    TopSubjectsComponent,
+    LeftSidebarComponent,
+    RightSidebarComponent
   ],
   imports: [
     BrowserModule,
