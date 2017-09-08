@@ -1,0 +1,113 @@
+.site-header {
+  padding: 15px 0 0;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+}
+.top-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.header-social li,
+.login-register-link li {
+  display: inline-block;
+}
+
+.logo {
+  max-width: 175px;
+  max-height: 25px;
+  overflow: hidden;
+}
+
+.header-social {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-social li {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 0 2px;
+  overflow: hidden;
+}
+
+.header-social li a,
+.header-social li a .fa {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.header-social li a {
+  display: block;
+  padding: 2px;
+  background: #000;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.header-social li a .fa {
+  float: right;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header-social li a:hover {
+  background: transparent;
+}
+
+.header-social li a:hover .fa {
+  color: #000;
+}
+
+.login-register-link {
+  margin: 0 10px 5px 150px;
+  font-size: 0;
+}
+
+.login-register-link a {
+  position: relative;
+  padding: 0 7px;
+  color: #267cb9;
+  font-size: 12px;
+}
+
+.login-register-link li:first-child a {
+  padding-left: 0;
+}
+
+.login-register-link li:last-child a {
+  padding-right: 0;
+}
+
+.login-register-link a:before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80%;
+  background: #267cb9;
+}
+
+.login-register-link li:first-child a:before {
+  content: none;
+}

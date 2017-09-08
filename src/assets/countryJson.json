@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "country_name": "Украина"
+  },
+  {
+    "id": 2,
+    "country_name": "Англия"
+  },
+  {
+    "id": 3,
+    "country_name": "Германия"
+  },
+  {
+    "id": 4,
+    "country_name": "Испания"
+  },
+  {
+    "id": 5,
+    "country_name": "Италия"
+  },
+  {
+    "id": 6,
+    "country_name": "Нидерланды"
+  },
+  {
+    "id": 7,
+    "country_name": "Португалия"
+  },
+  {
+    "id": 8,
+    "country_name": "Северная Америка"
+  },
+  {
+    "id": 9,
+    "country_name": "Турция"
+  },
+  {
+    "id": 10,
+    "country_name": "Франция"
+  },
+  {
+    "id": 11,
+    "country_name": "Другое"
+  }
+]

@@ -1,0 +1,76 @@
+/*----------------------------------------------------------------------------------*/
+/*-----------------------------------IMPORT FONTS-----------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face { font-family: "PFDinRegular"; src: url("./assets/fonts/pfdindisplaypro-regular.woff"); }
+@font-face { font-family: "PFDinBold"; src: url("./assets/fonts/pfdindisplaypro-bold.woff"); }
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+html                            { -webkit-text-size-adjust: none; }
+body                            { margin:0; padding:0; font:14px arial; background:#fff; color:#333; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
+  padding:0;
+  margin:0;
+  outline:none;
+  list-style:none;
+}
+select, input, textarea        { font-size:14px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:14px arial; font-size:14px; color:#333; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HTML5 BLOCKS---------------------------------*/
+/*----------------------------------------------------------------------------------*/
+header,
+footer,
+nav,
+section,
+article,
+aside,
+main {
+  display: block;
+}
+
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.nav-link li,
+.country-list li {
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+}
+
+.nav-link li:first-child,
+.country-list li:first-child {
+  border-top: 1px solid #dfdfdf;
+}
+
+.nav-link li a,
+.country-list li a {
+  display: block;
+  padding: 8px 7px;
+  font-size: 12px;
+  text-decoration: none;
+  background: #fdfdfd;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.nav-link li a:hover,
+.country-list li a:hover {
+  color: #188a19;
+  text-decoration: underline;
+}
