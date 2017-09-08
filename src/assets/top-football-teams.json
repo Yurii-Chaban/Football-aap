@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Александрия",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/406.png"
+  },
+  {
+    "id": 2,
+    "name": "Верес",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/533.png"
+  },
+  {
+    "id": 3,
+    "name": "Ворскла",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/78.png"
+  },
+  {
+    "id": 4,
+    "name": "Динамо К",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/23.png"
+  },
+  {
+    "id": 5,
+    "name": "Заря",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/219.png"
+  },
+  {
+    "id": 6,
+    "name": "Зирка К",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/473.png"
+  },
+  {
+    "id": 7,
+    "name": "Карпаты",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/220.png"
+  },
+  {
+    "id": 8,
+    "name": "Мариуполь",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/81.png"
+  },
+  {
+    "id": 9,
+    "name": "Олимпик Д",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/407.png"
+  },
+  {
+    "id": 10,
+    "name": "Сталь К",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/292.png"
+  },
+  {
+    "id": 11,
+    "name": "Черноморец",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/73.png"
+  },
+  {
+    "id": 12,
+    "name": "Шахтер",
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/24.png"
+  }
+]

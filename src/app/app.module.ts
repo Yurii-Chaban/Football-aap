@@ -11,6 +11,7 @@ import { CountryNavComponentComponent } from './country-nav-component/country-na
 import { TopSubjectsComponent } from './top-subjects/top-subjects.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
+import { TopFootballTeamsComponent } from './top-football-teams/top-football-teams.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
     CountryNavComponentComponent,
     TopSubjectsComponent,
     LeftSidebarComponent,
-    RightSidebarComponent
+    RightSidebarComponent,
+    TopFootballTeamsComponent
   ],
   imports: [
     BrowserModule,
