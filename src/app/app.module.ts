@@ -12,6 +12,8 @@ import { TopSubjectsComponent } from './top-subjects/top-subjects.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { TopFootballTeamsComponent } from './top-football-teams/top-football-teams.component';
+import { PreFooterTopNavComponent } from './prefooter-module/prefooter-top-nav/prefooter-top-nav.component';
+import { UkraineLinkListComponent } from './prefooter-module/ukraine-link-list/ukraine-link-list.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +26,13 @@ import { TopFootballTeamsComponent } from './top-football-teams/top-football-tea
     TopSubjectsComponent,
     LeftSidebarComponent,
     RightSidebarComponent,
-    TopFootballTeamsComponent
+    TopFootballTeamsComponent,
+    PreFooterTopNavComponent,
+    UkraineLinkListComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule,
-    footer-module
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

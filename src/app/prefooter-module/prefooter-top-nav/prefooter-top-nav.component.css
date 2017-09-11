@@ -1,0 +1,25 @@
+.footer-top-links {
+  display: flex;
+  padding: 0 0 15px 130px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.footer-top-links li a {
+  padding: 0 10px;
+  font-size: 12px;
+  text-decoration: none;
+  border-left: 1px solid #000;
+}
+
+.footer-top-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-top-links li:first-child a {
+  border: 0;
+  padding-left: 0;
+}
+
+.footer-top-links li:last-child a {
+  padding-right: 0;
+}

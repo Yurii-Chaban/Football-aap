@@ -21,6 +21,7 @@
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
   border: 0;
+  cursor: pointer;
 }
 
 #scroll-top .fa {
