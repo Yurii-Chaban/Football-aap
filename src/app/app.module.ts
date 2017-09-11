@@ -28,7 +28,8 @@ import { TopFootballTeamsComponent } from './top-football-teams/top-football-tea
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    footer-module
   ],
   providers: [],
   bootstrap: [AppComponent]
