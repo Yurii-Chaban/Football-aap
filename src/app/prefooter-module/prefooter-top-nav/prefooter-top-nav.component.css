@@ -23,3 +23,53 @@
 .footer-top-links li:last-child a {
   padding-right: 0;
 }
+
+.prefooter-links-content {
+  padding: 10px 15px 15px 130px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links li,
+.links-block-list li {
+  display: block;
+  margin: 5px 0;
+}
+
+.links li a,
+.links-block-list li a {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.links-block-list li a {
+  text-transform: uppercase;
+}
+
+.links li a:hover,
+.links-block-list li a:hover {
+  text-decoration: underline;
+}
+
+.prefooter-nav-link {
+  min-width: 14%;
+  padding: 0 1% 0 0;
+}
+
+.prefooter-nav-link-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-block h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
