@@ -1,6 +1,7 @@
 .main-content {
   box-sizing: border-box;
   background: #e6e6e6;
+  overflow: hidden;
 }
 .main-inside-wrapper {
   max-width: 1100px;

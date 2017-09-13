@@ -10,8 +10,15 @@
   background: #EFEFEF;
 }
 
-.holder_300X100 {
+.holder {
   width: 100%;
-  min-height: 100px;
   background: #ffffff;
+}
+
+.holder_300X100 {
+  min-height: 100px;
+}
+
+.holder_300X250 {
+  min-height: 250px;
 }

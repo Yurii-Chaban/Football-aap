@@ -14,6 +14,7 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { TopFootballTeamsComponent } from './top-football-teams/top-football-teams.component';
 import { PreFooterTopNavComponent } from './prefooter-module/prefooter-top-nav/prefooter-top-nav.component';
 import { UkraineLinkListComponent } from './prefooter-module/ukraine-link-list/ukraine-link-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { UkraineLinkListComponent } from './prefooter-module/ukraine-link-list/u
     RightSidebarComponent,
     TopFootballTeamsComponent,
     PreFooterTopNavComponent,
-    UkraineLinkListComponent
+    UkraineLinkListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

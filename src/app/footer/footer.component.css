@@ -1,0 +1,20 @@
+.site-footer {
+  margin: 10px auto 20px;
+  text-align: center;
+}
+
+.site-footer p,
+.site-footer a,
+.site-footer span {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.site-footer p {
+  line-height: 1.5;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
