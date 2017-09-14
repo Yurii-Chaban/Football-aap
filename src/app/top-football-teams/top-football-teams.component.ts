@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {DataService} from "../services/data.service";
 import {Router} from "@angular/router";
-import {environment} from "../../environments/environment";
 
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
@@ -18,12 +17,27 @@ export class TopFootballTeamsComponent implements OnInit {
     }
 
     top_teams = [];
+    teamsDossier = [];
 
     ngOnInit(): void {
+        this.getAllTeamsDossier();
         this.dataService.getTopFootballTeamsData().subscribe(data => {
             this.top_teams = data;
         });
     }
+
+    private getAllTeamsDossier() {
+        // this.dataService.getTopFootballTeamsData(this.teamId);
+        this.dataService.getTopFootballTeamsData().subscribe(
+            dossier => {
+                this.teamsDossier.push(Object.assign({}, (dossier as any).total, {
+                    rout_link: (dossier as any).rout_link,
+                    id: (dossier as any).id
+                }));
+            }
+        );
+    }
+
 
     goToTeamDossier(teamId) {
         // this.teamId = data.id

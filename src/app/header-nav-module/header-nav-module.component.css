@@ -65,6 +65,7 @@
 }
 
 .navigation li a {
+  padding-bottom: 6px;
   font: 400 13px / 1 'PFDinRegular', Arial, sans-serif;
   color: #fff;
   text-decoration: none;
@@ -79,7 +80,6 @@
 }
 
 .navigation li a.active {
-  padding-bottom: 6px;
   border-bottom: 2px solid #188a19;
   color: #1eac20;
 }
