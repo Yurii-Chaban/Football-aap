@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { HeaderModuleComponent } from './header-module/header-module.component';
@@ -15,6 +16,17 @@ import { TopFootballTeamsComponent } from './top-football-teams/top-football-tea
 import { PreFooterTopNavComponent } from './prefooter-module/prefooter-top-nav/prefooter-top-nav.component';
 import { UkraineLinkListComponent } from './prefooter-module/ukraine-link-list/ukraine-link-list.component';
 import { FooterComponent } from './footer/footer.component';
+import { UkraineComponent } from './country-module/ukraine/ukraine.component';
+import { EnglandComponent } from './country-module/england/england.component';
+import { GermanyComponent } from './country-module/germany/germany.component';
+import { SpainComponent } from './country-module/spain/spain.component';
+import { ItalyComponent } from './country-module/italy/italy.component';
+import { NetherlandsComponent } from './country-module/netherlands/netherlands.component';
+import { PortugalComponent } from './country-module/portugal/portugal.component';
+import { NorthamericaComponent } from './country-module/northamerica/northamerica.component';
+import { TurkeyComponent } from './country-module/turkey/turkey.component';
+import { FranceComponent } from './country-module/france/france.component';
+import { CountrieselseComponent } from './country-module/countrieselse/countrieselse.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +42,23 @@ import { FooterComponent } from './footer/footer.component';
     TopFootballTeamsComponent,
     PreFooterTopNavComponent,
     UkraineLinkListComponent,
-    FooterComponent
+    FooterComponent,
+    UkraineComponent,
+    EnglandComponent,
+    GermanyComponent,
+    SpainComponent,
+    ItalyComponent,
+    NetherlandsComponent,
+    PortugalComponent,
+    NorthamericaComponent,
+    TurkeyComponent,
+    FranceComponent,
+    CountrieselseComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    routes
   ],
   providers: [],
   bootstrap: [AppComponent]

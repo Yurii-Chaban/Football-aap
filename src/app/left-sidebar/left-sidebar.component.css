@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.nav-link {
+  margin: 0 0 10px;
+}
+
 #scroll-top {
   display: block;
   width: 54px;

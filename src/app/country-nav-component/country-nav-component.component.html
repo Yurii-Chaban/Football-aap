@@ -1,6 +1,6 @@
 <ul class="country-list">
   <li *ngFor="let country of countries">
-    <a href="#">
+    <a routerLink="{{ country.rout_link }}" routerLinkActive="active">
       <!--<span> {{ country.id }}</span>-->
       <span> {{ country.country_name }}</span>
     </a>

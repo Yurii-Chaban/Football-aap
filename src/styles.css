@@ -73,6 +73,11 @@ main {
   transition: all .15s ease-in-out;
 }
 
+.nav-link li a.active,
+.country-list li a.active {
+  color: #188a19;
+}
+
 .nav-link li a:hover,
 .country-list li a:hover {
   color: #188a19;

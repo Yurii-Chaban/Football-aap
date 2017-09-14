@@ -1,46 +1,57 @@
 [
   {
     "id": 1,
+    "rout_link": "ukraine",
     "country_name": "Украина"
   },
   {
     "id": 2,
+    "rout_link": "england",
     "country_name": "Англия"
   },
   {
     "id": 3,
+    "rout_link": "germany",
     "country_name": "Германия"
   },
   {
     "id": 4,
+    "rout_link": "spain",
     "country_name": "Испания"
   },
   {
     "id": 5,
+    "rout_link": "italy",
     "country_name": "Италия"
   },
   {
     "id": 6,
+    "rout_link": "netherlands",
     "country_name": "Нидерланды"
   },
   {
     "id": 7,
+    "rout_link": "portugal",
     "country_name": "Португалия"
   },
   {
     "id": 8,
+    "rout_link": "northamerica",
     "country_name": "Северная Америка"
   },
   {
     "id": 9,
+    "rout_link": "turkey",
     "country_name": "Турция"
   },
   {
     "id": 10,
+    "rout_link": "france",
     "country_name": "Франция"
   },
   {
     "id": 11,
+    "rout_link": "countrieselse",
     "country_name": "Другое"
   }
 ]
