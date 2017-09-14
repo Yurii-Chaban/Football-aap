@@ -27,7 +27,6 @@ export class TopFootballTeamsComponent implements OnInit {
     }
 
     private getAllTeamsDossier() {
-        // this.dataService.getTopFootballTeamsData(this.teamId);
         this.dataService.getTopFootballTeamsData().subscribe(
             dossier => {
                 this.teamsDossier.push(Object.assign({}, (dossier as any).total, {
