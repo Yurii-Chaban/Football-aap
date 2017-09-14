@@ -16,6 +16,7 @@ import { TopFootballTeamsComponent } from './top-football-teams/top-football-tea
 import { PreFooterTopNavComponent } from './prefooter-module/prefooter-top-nav/prefooter-top-nav.component';
 import { UkraineLinkListComponent } from './prefooter-module/ukraine-link-list/ukraine-link-list.component';
 import { FooterComponent } from './footer/footer.component';
+
 import { UkraineComponent } from './country-module/ukraine/ukraine.component';
 import { EnglandComponent } from './country-module/england/england.component';
 import { GermanyComponent } from './country-module/germany/germany.component';
@@ -27,6 +28,17 @@ import { NorthamericaComponent } from './country-module/northamerica/northameric
 import { TurkeyComponent } from './country-module/turkey/turkey.component';
 import { FranceComponent } from './country-module/france/france.component';
 import { CountrieselseComponent } from './country-module/countrieselse/countrieselse.component';
+
+import { MainPageComponent } from './page-module/main-page/main-page.component';
+import { NewsPageComponent } from './page-module/news-page/news-page.component';
+import { ScoreboardPageComponent } from './page-module/scoreboard-page/scoreboard-page.component';
+import { VideoPageComponent } from './page-module/video-page/video-page.component';
+import { GalleriesPageComponent } from './page-module/galleries-page/galleries-page.component';
+import { TvschedulePageComponent } from './page-module/tvschedule-page/tvschedule-page.component';
+import { ConferencesPageComponent } from './page-module/conferences-page/conferences-page.component';
+import { BlogPageComponent } from './page-module/blog-page/blog-page.component';
+import { DossierComponent } from './footbal-team-dossier/dossier/dossier.component';
+
 
 @NgModule({
   declarations: [
@@ -53,7 +65,16 @@ import { CountrieselseComponent } from './country-module/countrieselse/countries
     NorthamericaComponent,
     TurkeyComponent,
     FranceComponent,
-    CountrieselseComponent
+    CountrieselseComponent,
+    MainPageComponent,
+    NewsPageComponent,
+    ScoreboardPageComponent,
+    VideoPageComponent,
+    GalleriesPageComponent,
+    TvschedulePageComponent,
+    ConferencesPageComponent,
+    BlogPageComponent,
+    DossierComponent
   ],
   imports: [
     BrowserModule,

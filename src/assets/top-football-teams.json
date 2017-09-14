@@ -2,61 +2,145 @@
   {
     "id": 1,
     "name": "Александрия",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/406.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/406.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/406.png",
+    "club_president": "Сергей Кузьменко",
+    "main_coach": "Владимир Шаран",
+    "team_stadium": "КСК Ника",
+    "year_of_foundation": "1990",
+    "club_website": "https://fco.com.ua/",
+    "rout_link": "aleksandrija"
   },
   {
     "id": 2,
     "name": "Верес",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/533.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/533.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/533.png",
+    "club_president": null,
+    "main_coach": "Юрий Вирт",
+    "team_stadium": "Авангард",
+    "year_of_foundation": "1957",
+    "club_website": null,
+    "rout_link": "shakhtar"
   },
   {
     "id": 3,
     "name": "Ворскла",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/78.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/78.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/78.png",
+    "club_president": "Константин Жеваго",
+    "main_coach": "Василий Сачко",
+    "team_stadium": "Ворскла",
+    "year_of_foundation": "1955",
+    "club_website": "https://vorskla.com.ua/",
+    "rout_link": "veres"
   },
   {
     "id": 4,
     "name": "Динамо К",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/23.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/23.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/23.png",
+    "club_president": "Игорь Суркис",
+    "main_coach": "Александр Хацкевич",
+    "team_stadium": "НСК Олимпийский",
+    "year_of_foundation": "1927",
+    "club_website": "http://www.fcdynamo.kiev.ua/",
+    "rout_link": "vorskla"
   },
   {
     "id": 5,
     "name": "Заря",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/219.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/219.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/219.png",
+    "club_president": "Евгений Геллер",
+    "main_coach": "Юрий Вернидуб",
+    "team_stadium": "Авангард",
+    "year_of_foundation": "1923",
+    "club_website": "http://zarya-lugansk.com/",
+    "rout_link": "dynamo"
   },
   {
     "id": 6,
     "name": "Зирка К",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/473.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/473.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/473.png",
+    "club_president": "Максим Березкин",
+    "main_coach": "Роман Монарев",
+    "team_stadium": "Звезда",
+    "year_of_foundation": "1911",
+    "club_website": "http://fczirka.com.ua/",
+    "rout_link": "zorya"
   },
   {
     "id": 7,
     "name": "Карпаты",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/220.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/220.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/220.png",
+    "club_president": "Петр Дыминский",
+    "main_coach": "Серхио Наварро",
+    "team_stadium": "Украина",
+    "year_of_foundation": "1963",
+    "club_website": "http://www.fckarpaty.lviv.ua/ua/",
+    "rout_link": "zirka-k"
   },
   {
     "id": 8,
     "name": "Мариуполь",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/81.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/81.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/81.png",
+    "club_president": null,
+    "main_coach": "Александр Севидов",
+    "team_stadium": "Ильичевец",
+    "year_of_foundation": "1960",
+    "club_website": "http://fcmariupol.com/",
+    "rout_link": "karpaty"
   },
   {
     "id": 9,
     "name": "Олимпик Д",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/407.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/407.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/407.png",
+    "club_president": "Владислав Гельзин",
+    "main_coach": "Роман Санжар",
+    "team_stadium": "СК Олимпик",
+    "year_of_foundation": "2001",
+    "club_website": "http://olimpik.com.ua/",
+    "rout_link": "mariupol"
   },
   {
     "id": 10,
     "name": "Сталь К",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/292.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/292.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/292.png",
+    "club_president": null,
+    "main_coach": "Эгише Меликян",
+    "team_stadium": "Металлуpг",
+    "year_of_foundation": "1926",
+    "club_website": "http://www.fcstal.com.ua/",
+    "rout_link": "olimpik-d"
   },
   {
     "id": 11,
     "name": "Черноморец",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/73.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/73.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/73.png",
+    "club_president": "Леонид Климов",
+    "main_coach": "Александр Бабич",
+    "team_stadium": "Черноморец",
+    "year_of_foundation": "1936",
+    "club_website": "http://www.chernomorets.odessa.ua/",
+    "rout_link": "stal-k"
   },
   {
     "id": 12,
     "name": "Шахтер",
-    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/24.png"
+    "icon": "http://s.ill.in.ua/i/football/team/logo_sm/0x50/24.png",
+    "emblem": "http://s.ill.in.ua/i/football/team/logo/0x160/24.png",
+    "club_president": "Ринат Ахметов",
+    "main_coach": "Паулу Фонсека",
+    "team_stadium": "Донбасс Арена",
+    "year_of_foundation": "1936",
+    "club_website": "https://shakhtar.com/",
+    "rout_link": "chornomorets"
   }
 ]

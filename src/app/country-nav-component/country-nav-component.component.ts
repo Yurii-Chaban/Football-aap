@@ -15,7 +15,7 @@ export class CountryNavComponentComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataService.getCountryData().subscribe(data => {
-      console.log('in country', data);
+      // console.log('in country', data);
       this.countries = data;
     });
   }

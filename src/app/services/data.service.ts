@@ -11,11 +11,11 @@ export class DataService {
     getData(): Observable<Array<object>> {
         return this.http.get('/assets/JSONData.json')
             .map(res => {
-                console.log('data', res);
+                // console.log('data', res);
                 return res.json();
             })
             .catch(error => {
-                console.log(error);
+                // console.log(error);
                 return Observable.of<Object>([]);
             });
     }
@@ -23,11 +23,11 @@ export class DataService {
     getCountryData(): Observable<Array<object>> {
         return this.http.get('/assets/countryJson.json')
             .map(res => {
-                console.log('data', res);
+                // console.log('data', res);
                 return res.json();
             })
             .catch(error => {
-                console.log(error);
+                // console.log(error);
                 return Observable.of<Object>([]);
             });
     }
@@ -35,11 +35,11 @@ export class DataService {
     getTopSubjectData(): Observable<Array<object>> {
         return this.http.get('/assets/top-subject.json')
             .map(res => {
-                console.log('data', res);
+                // console.log('data', res);
                 return res.json();
             })
             .catch(error => {
-                console.log(error);
+                // console.log(error);
                 return Observable.of<Object>([]);
             });
     }
@@ -47,15 +47,13 @@ export class DataService {
     getTopFootballTeamsData(): Observable<Array<object>> {
         return this.http.get('/assets/top-football-teams.json')
             .map(res => {
-                console.log('data', res);
+                // console.log('data', res);
                 return res.json();
             })
             .catch(error => {
-                console.log(error);
+                // console.log(error);
                 return Observable.of<Object>([]);
             });
-    }
-
-
+    }S
 
 }

@@ -15,7 +15,7 @@ export class TopSubjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataService.getTopSubjectData().subscribe(data => {
-      console.log('in top subject results', data);
+      // console.log('in top subject results', data);
       this.top_subject_results = data;
     });
   }

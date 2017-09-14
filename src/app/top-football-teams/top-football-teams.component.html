@@ -1,7 +1,7 @@
 <ul class="top-football-teams">
-  <li *ngFor="let topTeam of topTeams">
-    <a href="#">
-      <img  src="{{topTeam.icon}}" alt="{{topTeam.name}}">
+  <li *ngFor="let top_team of top_teams">
+    <a (click)="goToTeamDossier(e.id)">
+      <img  src="{{top_team.icon}}" alt="{{top_team.name}}">
     </a>
   </li>
 </ul>

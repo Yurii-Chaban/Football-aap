@@ -15,7 +15,7 @@ export class GetJsonContentComponent implements OnInit {
 
     ngOnInit(): void {
         this.dataService.getData().subscribe(data => {
-            console.log('in component', data);
+            // console.log('in component', data);
             this.results = data;
         });
     }
